@@ -13,7 +13,7 @@ print(annasGreeting)
 
 # Creating widgets for leveraging parameters, and printing the parameters
 
-dbutils.widgets.text("input", "","")
-y = dbutils.widgets.get("input")
+dbutils.widgets.text("name", "","")
+y = dbutils.widgets.get("name")
 print ("Param -\'input':")
 print (y)
